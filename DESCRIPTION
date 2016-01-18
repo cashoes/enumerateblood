@@ -3,9 +3,12 @@ Title: Enumerate cell types in blood from gene expression.
 Version: 1.0
 Authors@R: person("Casey", "Shannon", email = "also.casey@gmail.com", role = c("aut", "cre"))
 Description: A multi-response Gaussian model capable of accurately estimating
-  the composition of blood samples from their gene expression profiles. Fit on
-  Affymetrix Gene ST gene expression profiles using the glmnet R package.
-Depends: R (>= 3.2.2)
+    the composition of blood samples from their gene expression profiles. Fit on
+    Affymetrix Gene ST gene expression profiles using the glmnet R package.
+Depends:
+    R (>= 3.2.2)
 License: GPL-3 | file LICENSE
 LazyData: true
-Imports: glmnet
+Imports:
+    glmnet
+RoxygenNote: 5.0.0
